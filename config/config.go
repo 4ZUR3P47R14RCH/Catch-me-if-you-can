@@ -22,7 +22,6 @@ type PhishServer struct {
 	ListenURL  string `json:"listen_url"`
 	UseTLS     bool   `json:"use_tls"`
 	CertPath   string `json:"cert_path"`
-	CertSHA256 string `fccdf1a1dd8ae0e7f1e182fe387cd39a71e73fcdf0fbd2c3f86ef3c6bb71f5a7`
 	KeyPath    string `json:"key_path"`
 }
 
